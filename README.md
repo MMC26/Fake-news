@@ -25,26 +25,28 @@ Un projecte de machine learning dissenyat per analitzar notícies i predir si s�
 
 2. **Llibreries:**
     Aquest projecte utilitza diverses llibreries de Python que cal instal·lar abans d’executar-lo. Pots fer-ho creant un entorn virtual i instal·lant-les amb pip:
-        pip install pandas
-        pip install dateutil
-        pip install numpy
-        pip install matplotlib
-        pip install nltk
-        pip install rate-nltk
-        pip install seaborn
-        pip install langdetect
-        pip install deep_translator
-        pip install wordcloud
-        pip install scikit-learn
-        pip install scipy
-        pip install newspaper3k
-        pip install lxml[html_clean]
+
+    ```bash
+    pip install pandas
+    pip install dateutil
+    pip install numpy
+    pip install matplotlib
+    pip install nltk
+    pip install rate-nltk
+    pip install seaborn
+    pip install langdetect
+    pip install deep_translator
+    pip install wordcloud
+    pip install scikit-learn
+    pip install scipy
+    pip install newspaper3k
+    pip install lxml[html_clean]
+    ```
 
 ## MÈTRIQUES I RESULTATS
-Hem utilitzat la mètrica F1-score per controlar tant els falsos positius com negatius. Per visualitzar els resultats, hem utilitzat la corba ROC.
-El model seleccionat(ComplementNB amb text_without_stopwords) presenta:
-     - Accuracy(test): 0.75 
-     - F1-score(test): 0.78
+Hem utilitzat la mètrica F1-score per controlar tant els falsos positius com negatius. Per visualitzar els resultats, hem utilitzat la corba ROC. El model seleccionat (**ComplementNB amb text_without_stopwords**) presenta:
+- **Accuracy (test):** 0.75  
+- **F1-score (test):** 0.78
 
 ## AUTORES
 - Maria Muñoz Cabestany - MMC26
