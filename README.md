@@ -4,6 +4,7 @@ Un projecte de machine learning dissenyat per analitzar notícies i predir si s�
 - Un script per al *web scraping* que amplia el dataset inicial.
 - El dataset definitiu utilitzat a la pràctica.
 - Un fitxer `main.py` amb el codi implementat.
+- Informe del projecte.
 
 ## CARACTERÍSTIQUES
 - **Tipus de classificació:** binària (*Real* [0] o *Falsa* [1]).
